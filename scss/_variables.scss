@@ -1,0 +1,145 @@
+$escritorio: 1200px;
+$tablet-g: 992px;
+$tablet-c: 768px;
+$cell-g: 576px;
+$cell-c: 470px;
+@mixin escritorio{
+	@media (min-width: #{$tablet-g}) and (max-width: #{$escritorio - 1}) {
+		@content 
+	}
+}
+@include escritorio{ 
+	img{
+		height: 100px;
+	}
+	.header{
+	background-color: grey;
+	background-image: none ;
+	}
+	.header a{
+		color: black;
+	}
+	.mb-3{
+	max-width: 500px;
+	}
+	iframe{
+	margin-left: 0px;
+	}
+}
+
+@mixin tablet-g{
+	@media (min-width: #{$tablet-c}) and (max-width: #{$tablet-g - 1}) {
+		@content
+	}
+}
+@include tablet-g{ 
+	img{
+		height: 90px;
+	}
+	.header{
+	background-color: grey;
+	background-image: none ;
+	}
+	.header a{
+		color: black;
+	}
+	.mb-3{
+	max-width: 500px;
+	}
+	iframe{
+	margin-left: 0px;
+	}
+}
+@mixin tablet-c{
+	@media (min-width: #{$cell-g}) and (max-width: #{$tablet-c - 1}) {
+		@content
+	}
+}
+@include tablet-c{ 
+	img{
+		height: 75px;
+	}
+	.inf-img{
+		height: 75px;
+	}
+	.header{
+	background-color: grey;
+	background-image: none ;
+	}
+	.header a{
+		color: black;
+	}
+	.mb-3{
+	max-width: 500px;
+	}
+	iframe{
+	margin-left: 0px;
+	}
+	#contenido {
+	margin-left: 2.188rem;
+	padding-top: 4.375rem;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 3.125rem;
+	}
+	.contac{
+	font-size: 15px;
+	}
+	iframe{
+	margin-left: 0px;
+	min-width: 100px;
+	min-height: 100px;
+	}
+}
+@mixin cell-g{
+	@media (min-width: #{$cell-c}) and (max-width: #{$cell-g - 1}) {
+		@content
+	}
+}
+@include cell-g{ 
+	img{
+		height: 75px;
+	}
+	.inf-img{
+		height: 75px;
+	}
+	.header{
+	background-color: grey;
+	background-image: none ;
+	}
+	.header a{
+		color: black;
+	}
+	.mb-3{
+	max-width: 500px;
+	}
+	iframe{
+	margin-left: 0px;
+	min-width: 100px;
+	min-height: 100px;
+	}
+	#contenido {
+	margin-left: 00rem;
+	padding-top: 0rem;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 1rem;
+	}
+	#contactos {
+	border: 1px white solid ;
+	margin-left: 0px;
+	padding-top: 0px;
+	}
+	.contac{
+	font-size: 15px;
+	}
+	.titulo{
+		font-size: 17px;
+	}
+	.mb-3{
+	max-width: 300px;
+	}
+	.descripcion{
+		font-size: 15px;
+	}
+}

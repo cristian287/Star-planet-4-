@@ -1,1 +1,240 @@
-body{background-color:black;color:white}a{color:white}a:hover{color:yellow;text-decoration:underline}img{height:300px}.header{background-image:url(https://i.ytimg.com/vi/vm3uzg4qbJ8/mqdefault.jpg)}.icono{height:75px}.h-button{color:white}.i-contenido{border:5px solid white}#contenido{margin-left:2.188rem;padding-top:4.375rem;display:grid;min-width:100vh;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;grid-gap:3.125rem}.info{border:5px white solid;transition:1s;transition-delay:.1s}.info:hover{background-image:url(https://www.nationalgeographic.com.es/medio/2021/08/23/representacion-artistica-de-la-via-lactea_44b3b1b9_985x554.jpg);transition:2s}.titulo{font-size:1.875rem;text-decoration:underline}.inf-img{height:200px}#contactos{border:3px white solid;margin-left:2.188rem;padding-top:6.25rem;padding-bottom:7.5rem;display:grid;min-width:100vh;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr;grid-gap:1px}.contac{font-size:2.813rem}#mapa{margin-left:500px;font-size:45px;text-decoration:underline}iframe{margin-left:31.25rem}
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+img {
+  height: 250px;
+}
+
+.header {
+  background-image: url(https://i.ytimg.com/vi/vm3uzg4qbJ8/mqdefault.jpg);
+}
+
+.header a {
+  font-size: 35px;
+}
+
+.icono {
+  height: 75px;
+}
+
+.icono:hover {
+  content: url(https://cdn.icon-icons.com/icons2/2309/PNG/512/star_favourite_icon_141889.png);
+  transform: rotate(3240deg);
+  transition: 2s;
+}
+
+.h-button {
+  color: white;
+}
+
+.i-contenido {
+  border: 5px solid white;
+}
+
+#contenido {
+  margin-left: 2.188rem;
+  padding-top: 4.375rem;
+  display: grid;
+  min-width: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 3.125rem;
+}
+
+.info {
+  border: 5px white solid;
+  transition: 1s;
+  transition-delay: .1s;
+}
+
+.info:hover {
+  background-image: url(https://www.nationalgeographic.com.es/medio/2021/08/23/representacion-artistica-de-la-via-lactea_44b3b1b9_985x554.jpg);
+  transition: 2s;
+}
+
+.titulo {
+  font-size: 1.875rem;
+  text-decoration: underline;
+}
+
+.inf-img {
+  height: 200px;
+}
+
+#contactos {
+  border: 3px white solid;
+  margin-left: 20px;
+  padding-top: 10px;
+  display: grid;
+  min-width: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1px;
+}
+
+#mapa {
+  margin-left: 500px;
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+iframe {
+  margin-left: 31.25rem;
+  width: 500;
+  height: 380;
+}
+
+.valor span {
+  color: green;
+}
+
+.precio {
+  font-size: 30px;
+}
+
+.precio a {
+  color: green;
+}
+
+.aceptado {
+  font-size: 45px;
+  padding-bottom: 390px;
+}
+
+.mb-3 {
+  max-width: 900px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  img {
+    height: 100px;
+  }
+  .header {
+    background-color: grey;
+    background-image: none;
+  }
+  .header a {
+    color: black;
+  }
+  .mb-3 {
+    max-width: 500px;
+  }
+  iframe {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  img {
+    height: 90px;
+  }
+  .header {
+    background-color: grey;
+    background-image: none;
+  }
+  .header a {
+    color: black;
+  }
+  .mb-3 {
+    max-width: 500px;
+  }
+  iframe {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  img {
+    height: 75px;
+  }
+  .inf-img {
+    height: 75px;
+  }
+  .header {
+    background-color: grey;
+    background-image: none;
+  }
+  .header a {
+    color: black;
+  }
+  .mb-3 {
+    max-width: 500px;
+  }
+  iframe {
+    margin-left: 0px;
+  }
+  #contenido {
+    margin-left: 2.188rem;
+    padding-top: 4.375rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 3.125rem;
+  }
+  .contac {
+    font-size: 15px;
+  }
+  iframe {
+    margin-left: 0px;
+    min-width: 100px;
+    min-height: 100px;
+  }
+}
+
+@media (min-width: 470px) and (max-width: 575px) {
+  img {
+    height: 75px;
+  }
+  .inf-img {
+    height: 75px;
+  }
+  .header {
+    background-color: grey;
+    background-image: none;
+  }
+  .header a {
+    color: black;
+  }
+  .mb-3 {
+    max-width: 500px;
+  }
+  iframe {
+    margin-left: 0px;
+    min-width: 100px;
+    min-height: 100px;
+  }
+  #contenido {
+    margin-left: 00rem;
+    padding-top: 0rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  #contactos {
+    border: 1px white solid;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+  .contac {
+    font-size: 15px;
+  }
+  .titulo {
+    font-size: 17px;
+  }
+  .mb-3 {
+    max-width: 300px;
+  }
+  .descripcion {
+    font-size: 15px;
+  }
+}
