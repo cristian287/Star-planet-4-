@@ -46,7 +46,6 @@ img {
   margin-left: 2.188rem;
   padding-top: 4.375rem;
   display: grid;
-  min-width: 100vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 3.125rem;
@@ -272,10 +271,15 @@ iframe {
     height: 0px;
     opacity: 0%;
   }
+  iframe {
+    margin-left: 0px;
+    min-width: 100px;
+    min-height: 100px;
+  }
   .info {
     border: 1px solid white;
     font-size: 15px;
-    max-width: 1500px;
+    width: 100%;
   }
   #contenido {
     margin-left: 00rem;
