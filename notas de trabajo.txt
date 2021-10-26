@@ -1,4 +1,4 @@
-tiempo trabajado= 5H {9/10=5h}
+tiempo trabajado= 11H {9/10=5h 10/10=2h 12/10=4h}
 Estilo y forma= aceptable 
 reutilizacion de codigo= mas de la media 
 temp= no 
