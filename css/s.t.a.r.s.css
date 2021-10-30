@@ -114,6 +114,10 @@ iframe {
   max-width: 900px;
 }
 
+p {
+  color: black;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   img {
     height: 100px;
