@@ -95,3 +95,19 @@ iframe{
 p{
 	color: black;
 }
+.contrato{
+	color: white;
+	font-size: 35px;
+	text-decoration: underline;
+	text-align: center;
+
+	span{
+		color: grey;
+		font-size: 40px;
+	}
+	div p{
+		color: white;
+		font-size: 30px;
+		padding-bottom: 50px;
+	}
+}

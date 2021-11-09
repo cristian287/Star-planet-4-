@@ -91,6 +91,12 @@ $cell-xs: 300px;
 	min-width: 100px;
 	min-height: 100px;
 	}
+	.contrato{
+		text-decoration: none;
+		div p{
+			font-size: 25px;
+	}
+	}
 }
 @mixin cell-g{
 	@media (min-width: #{$cell-c}) and (max-width: #{$cell-g - 1}) {
@@ -142,6 +148,14 @@ $cell-xs: 300px;
 	}
 	.descripcion{
 		font-size: 15px;
+	}
+	.contrato{
+		background-color: white;
+		color: black;
+		text-decoration: none;
+			div p{
+				font-size: 35px;
+			}	
 	}
 }
 @mixin cell-xs{
@@ -222,4 +236,13 @@ $cell-xs: 300px;
 	.aceptado{
 		font-size: 15px;
 	}
+	.contrato{
+		background-color: white;
+		color: black;
+		text-decoration: none;
+			div p{
+				font-size: 35px;
+			}	
+	}
+
 }

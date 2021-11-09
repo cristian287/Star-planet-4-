@@ -118,6 +118,24 @@ p {
   color: black;
 }
 
+.contrato {
+  color: white;
+  font-size: 35px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.contrato span {
+  color: grey;
+  font-size: 40px;
+}
+
+.contrato div p {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   img {
     height: 100px;
@@ -191,6 +209,12 @@ p {
     min-width: 100px;
     min-height: 100px;
   }
+  .contrato {
+    text-decoration: none;
+  }
+  .contrato div p {
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 470px) and (max-width: 575px) {
@@ -238,6 +262,14 @@ p {
   }
   .descripcion {
     font-size: 15px;
+  }
+  .contrato {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
+  .contrato div p {
+    font-size: 35px;
   }
 }
 
@@ -313,5 +345,13 @@ p {
   }
   .aceptado {
     font-size: 15px;
+  }
+  .contrato {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+  }
+  .contrato div p {
+    font-size: 35px;
   }
 }
